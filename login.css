@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.LoginBanner {
+  background: #5aab81;
+}
+.LoginBanner > p {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  padding: 67px 161px 73px 171px;
+}
+.loginMainContainer {
+  background-color: #d5eadf;
+  display: flex;
+  gap: 350px;
+}
+.loginMain1 {
+  padding-left: 92px;
+}
+.loginSubGroup1 {
+  width: 513px;
+  /* height: 124px; */
+  display: flex;
+  flex-direction: column;
+}
+.loginSubGroup1 > h2 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #022b16;
+  margin-bottom: 7px;
+  padding-top: 64px;
+}
+.loginSubGroup1 > .loginPara1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.loginDivForm {
+  width: 534px;
+  margin-top: 41px;
+}
+
+form > input {
+  border: 1px solid #01150b;
+  border-radius: 8px;
+  padding: 14px;
+  width: 100%;
+  background-color: #d5eadf;
+}
+
+input::placeholder {
+  color: #5aab81;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.loginDivForm > .loginDivFormPara1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #022b16;
+  margin-top: 14px;
+  display: flex;
+  gap: 6px;
+}
+.loginDivFormPara1 > .loginParaSpan1 {
+  width: 16px;
+}
+.loginSubDiv2 {
+  display: flex;
+  gap: 22px;
+}
+.loginSubDiv2 > button {
+  padding: 13px 47px;
+  background-color: #01150b;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-bottom: 163px;
+  border: none;
+}
+.loginSubDiv2 > p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 44px;
+color: #022B16;
+
+
+}
+
+.loginMain2{
+    margin-top: 67px;
+    margin-right: 92px;
+}
+
+.loginMain2 > h2, p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 44px;
+color: #022B16;
+
+}
+.loginMain2 > .loginMain2Para{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+  /* padding-bottom: 20px; */
+}
+.loginMain2Para > .loginMain2span{
+  display: flex;
+    width: 10px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* gap: 18px; */
+}
+
+.loginMain2 > hr{
+  width: 302px;
+  border: 1px solid #01150B;
+
+}
+
