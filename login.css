@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #022B16;
+}
 .LoginBanner {
   background: #5aab81;
 }
@@ -91,6 +96,7 @@ input::placeholder {
   color: #ffffff;
   margin-bottom: 163px;
   border: none;
+  cursor: pointer;
 }
 .loginSubDiv2 > p{
     font-family: Inter;
