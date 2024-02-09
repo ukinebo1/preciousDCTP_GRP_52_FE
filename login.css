@@ -14,7 +14,8 @@
   --white-green: #fefefe;
   --another-black: #01150b;
 
-  font-family: Poppins;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 10px;
 }
 body {
@@ -42,16 +43,16 @@ header {
   margin-left: 91px;
   margin-right: 91px;
 }
-.menu{
+.menu {
   display: flex;
-  background-color: #D5EADF;
+  background-color: #d5eadf;
   justify-content: space-around;
 }
-.menu__logo img{
+.menu__logo img {
   width: 70px;
-  height: 70px; 
+  height: 70px;
 }
-.menu__nav ul{
+.menu__nav ul {
   display: flex;
   gap: 3rem;
   list-style: none;
@@ -59,58 +60,58 @@ header {
   padding: 15px;
   margin-top: 15px;
 }
-li{
-  color: #022B16;
+li {
+  color: #022b16;
 }
-.menu__nav ul li a{
+.menu__nav ul li a {
   text-decoration: none;
-  color: #022B16;
+  color: #022b16;
   font-size: larger;
   font-weight: bolder;
   cursor: pointer;
 }
-.menu__nav ul li a:hover{
+.menu__nav ul li a:hover {
   color: #ffffff;
 }
-.logo{
+.logo {
   margin-top: 9px;
   width: 100px;
-  height: 100px; 
+  height: 100px;
 }
-.btn{
+.btn {
   margin-top: 15px;
-
 }
-.btn-1, .btn-2{
+.btn-1,
+.btn-2 {
   font-size: 20px;
   padding: 15px 35px;
   border: none;
   border-radius: 10px;
 }
-.btn-1{
+.btn-1 {
   background-color: transparent;
   cursor: pointer;
 }
-.btn-1:hover{
-  background-color:green;
+.btn-1:hover {
+  background-color: green;
   color: white;
 }
 
-.btn-2{
-  background-color: #022B16;
+.btn-2 {
+  background-color: #022b16;
   color: white;
   cursor: pointer;
 }
-.btn-2:hover{
-  background-color:green;
+.btn-2:hover {
+  background-color: green;
   color: white;
 }
 
-.content-1{
-  background-color: #5AAB81;
+.content-1 {
+  background-color: #5aab81;
   height: 170px;
 }
-.content-1 h2{
+.content-1 h2 {
   color: white;
   text-transform: uppercase;
   text-align: center;
