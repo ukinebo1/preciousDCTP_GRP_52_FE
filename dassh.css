@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color:#D5EADF;
+    padding-left: 230px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #0D2A06;
+    /* background-color:transparent; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    /* align-items: center; */
+}
+.sidebar img{
+    height: 150px;
+    width: 150px;
+    /* color: transparent; */
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.sidebar a{
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 44px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.15s ease-in-out;
+    justify-items: left;
+    text-align: left;
+}
+.sidebar a:hover{
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.sidebar div{
+    display: flex;
+    flex-direction: column;
+    /* border-top: 1px solid #5AAB81; */
+    border-bottom: 1px solid #5AAB81;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+.searchContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.searchContainer__itself{
+    position: relative;
+}
+.searchbox{
+    width: 505px;
+    border-radius: 8px;
+    Padding: 14px 0px 14px 40px;
+    font-size: 20px;
+    height: 60px;
+    background: #ADD2B1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.searchbox::placeholder{
+    font-size: 16px;
+    color: #01150B;
+    font-weight: 400;
+    line-height: 24px;
+}
+.search-btn{
+    background-color: transparent;
+    position: absolute;
+    padding: 15px;
+    border: none;
+    top: 6px;
+    left: -8px;
+    cursor: pointer;
+}
+.search-icon{
+    height: 24px;
+    width: 24px;
+}
+.studentDetails{
+    display: flex;
+    background: #022B16;
+    Padding: 13px 47px 13px 47px;
+    gap: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.profile-logo{
+    cursor: pointer;
+}
+.dropdownbtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.Mainheading h2{
+    font-size: 38px;
+    font-weight: 700;
+    background-color: #5aab81;
+    color: #ffffff ;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+  
+  }
+  .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+  .info-container__heading{
+    background: #ADD2B1;
+    width: 513px;
+    height: 60px;
+    padding: 8px 20px ;
+    border-radius: 16px;
+    color: #01150B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .settingbtn{
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    top: 18px;
+    right: 20px;
+    border: none;
+  }
+  .info-container__content{
+    background-color:#ADD2B1 ;
+    width: 513px;
+    height: 386px;
+    border-radius: 16px;
+    margin-top: 20px;
+    padding: 20px;
+    color: #022B16;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 44px;
+
+  }
